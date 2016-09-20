@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ASU Header Versions
+  
+  Used for version selection in web applications, namely the ASU Brand module.
+  
+  Format of xml elements is the following:
+  
+  <headers>
+    <header>
+      <version>[direct of version]</version>
+      <name>[text to display for users selecting version]</name>
+    </header>
+  </headers>
+-->
+
+<headers>
+  <header>
+    <version>1.0</version>
+    <name>1.0 (not supported)</name>
+  </header>
+  <header>
+    <version>2.0</version>
+    <name>2.0 (not supported)</name>
+  </header>
+  <header>
+    <version>3.0</version>
+    <name>3.0 (not supported)</name>
+  </header>
+  <header>
+    <version>3.1</version>
+    <name>3.1 (not supported)</name>
+  </header>
+  <header>
+    <version>4.0</version>
+    <name>4.0 (recommended)</name>
+  </header>
+  <header>
+    <version>4.0-rsp.0</version>
+    <name>4.0 Responsive (version 0) (not supported)</name>
+  </header>
+  <header>
+    <version>4.0-rsp.1</version>
+    <name>4.0 Responsive (version 1) (beta)</name>
+  </header>
+  <header>
+    <version>4.0-rsp-up.0</version>
+    <name>4.0 Responsive (ASU menu slides up) (dev)</name>
+  </header>
+  <header>
+    <version>4.2</version>
+    <name>4.2 BETA</name>
+  </header>
+</headers>
