@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ASU Header Versions
+  
+  Used for version selection in web applications, namely the ASU Brand module.
+  
+  New header definitions with GTM based tracking was introduced from
+  header version 4.3 onwards. Brand module dependancies were enforced from
+  this version indicating min and max versions supported. Only the major
+  and patch level number is checked. Not the extra as described in
+  https://www.drupal.org/node/467026 
+  Additional dependancies can be added within the <compatibility> tags 
+  if other platforms build integration modules similar to the brand_module.
+  
+  <gtmheader>
+  	<compatibility>
+		<brand_module>
+			<min>[Standard Drupal version Number e.g. 6.x-1.0-alpha]</min>
+			<max>[Standard Drupal version Number]</max>
+		</brand_module>
+  	</compatibility>
+    <version>4.3</version>
+    <name>4.3 (Alpha)</name>
+  </gtmheader>
+-->
+<headers>
+  <!-- version 4.3 -->
+  <header>
+  	<compatibility>
+		<brand_module>
+			<min>7.x-1.7</min>
+			<max>7.x-1.20</max>
+		</brand_module>
+  	</compatibility>
+    <version>4.3</version>
+    <name>4.3</name>
+  </header>
+  <header>
+  	<compatibility>
+		<brand_module>
+			<min>7.x-1.7</min>
+			<max>7.x-1.20</max>
+		</brand_module>
+  	</compatibility>
+    <version>4.4</version>
+    <name>4.4</name>
+  </header>
+  <header>
+  	<compatibility>
+		<brand_module>
+			<min>7.x-1.7</min>
+			<max>7.x-1.20</max>
+		</brand_module>
+  	</compatibility>
+    <version>4.5</version>
+    <name>4.5</name>
+  </header>
+</headers>
