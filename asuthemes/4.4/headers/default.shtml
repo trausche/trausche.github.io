@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>ASU Coding Standards</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./asuthemes/4.5/css/asu_header.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
 <!-- START /asuthemes/4.4/headers/default.shtml -->
 <div id="main-search" class="main-search closed"></div>
 <div id="asu_hdr" class="asu_hdr_white">
@@ -101,8 +89,6 @@
         </div>
     </div>
 </div>
-<script src="./asuthemes/4.4/js/asu_header.js"></script>
-<script src="./asuthemes/4.4/js/asu_header.min.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 ASUHeader.default_search_text = "Search ASU";
@@ -129,57 +115,3 @@ if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
 </script>
 <div style="clear:both;"></div>
 <!-- END /asuthemes/4.4/headers/default.shtml -->
-
-
-<body>
-
-<div class="jumbotron text-center">
-  <h1><i class="fa fa-home icon-white"></i>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p>
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
-
-<!-- Start of ASU footer -->
-<div id="innovation-footer">
-  <div id="innovation-bar">
-    <div class="innovation-top">
-      <div class="innovation-status">
-         <a href="https://yourfuture.asu.edu/rankings"><span>ASU is #1 in the U.S. for Innovation</span></a>
-      </div>
-      <div class="innovation-hidden">
-        <a href="https://yourfuture.asu.edu/rankings"><img src="./asuthemes/4.5/assets/best-college-2017.png" alt="Best Colleges U.S. News Most Innovative 2016"></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-menu">
-    <ul class="default">
-      <li><a href="http://www.asu.edu/copyright/">Copyright &amp; Trademark</a></li>
-      <li><a href="http://www.asu.edu/accessibility/">Accessibility</a></li>
-      <li><a href="http://www.asu.edu/privacy/">Privacy</a></li>
-      <li><a href="http://www.asu.edu/asujobs">Jobs</a></li>
-      <li><a href="http://www.asu.edu/emergency/">Emergency</a></li>
-      <li class="no-border"><a href="http://www.asu.edu/contactasu/">Contact ASU</a></li>
-    </ul>
-  </div>
-</div>
-</body>
-</html>
