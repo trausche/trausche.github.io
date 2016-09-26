@@ -12,7 +12,7 @@
   text-shadow: 2px 2px #DFA617;
 }
 head, body{
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
 .vertical-nav {
@@ -53,5 +53,15 @@ head, body{
 
 /* Change the link color on hover */
 .vertical-nav-button:hover {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.badcode {
+  background-color: #FFDDDD;
+  font-family: Courier new;
+}
+
+.goodcode {
+  background-color: #DDFFDD;
+  font-family: Courier new;
 }
