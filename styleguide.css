@@ -30,7 +30,6 @@ head, body{
   border-bottom-color: #D0D0D0;
   border-left-color: #D0D0D0;
   border-right-color: #D0D0D0;
-  
 }
 
 .vertical-nav-button {
@@ -51,9 +50,19 @@ head, body{
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 .vertical-nav-button:hover {
   font-weight: bold;
+}
+
+.big-link {
+  color: #8C1D40;
+  text-decoration: none;
+}
+
+.big-link:hover {
+  font-weight: bold;
+  color: #8C1D40;
+  text-decoration: none;
 }
 
 .badcode {
@@ -64,4 +73,9 @@ head, body{
 .goodcode {
   background-color: #DDFFDD;
   font-family: Courier new;
+}
+
+.page-spacer {
+  min-height: 100vh;
+  padding-bottom: 40px;
 }
