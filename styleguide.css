@@ -66,6 +66,17 @@ head, body{
   text-decoration: none;
 }
 
+.small-link {
+  color: #8C1D40;
+  text-decoration: none;
+}
+
+.small-link:hover {
+  font-weight: bold;
+  color: #8C1D40;
+  text-decoration: none;
+}
+
 .badcode {
   background-color: #FFDDDD;
   font-family: Courier new;
